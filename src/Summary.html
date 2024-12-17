@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aitor Maraña">
+    <meta name="description" content="Apuntes empresa">
+    <meta name="keywords" content="Apuntes Aitor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{font-family: "Calibri", sans-serif;
+    }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            list-style: none;
+            font-size: 20px;
+        }
+        summary::before {
+            content:"▼";
+            font-size: 18px;
+            margin-right: 5px;
+        }
+        details[open] summary::before {
+            content: "▲";
+        }
+        details p {
+            margin-top: 10px;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        details[open] p {
+            max-height: 500px;
+            opacity: 1;
+            transition: max-height 0.5s ease, opacity 0.5s ease;
+        }
+    </style>
+    <title>Ejemplo Summary</title>
+</head>
+<body>
+    <details>
+        <summary>SEO</summary>
+        <p>SEO es la sigla para Search Engine Optimization, que significa "optimización para motores de búsqueda".</p>
+    </details>
+    <details>
+        <summary>HTML</summary>
+        <p> Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos</p>
+    </details>
+    <details>
+        <summary>CSS</summary>
+        <p>Es un lenguaje para la composición y estructuración de páginas web </p>
+    </details>
+    <details>
+        <summary>JavaScript</summary>
+        <p>Lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.</p>
+    </details>
+</body>
+</html>

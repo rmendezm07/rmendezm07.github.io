@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <meta name="Author" content="Aitor Maraña">
+            <meta name="description" content="Horario 2ºSMR">
+            <meta name="keywords" content="Horario, horario clase">
+            <meta name="viewport" content="width=device-width, initial-scale=0.9">
+            <title>Horario</title>
+            <style>
+                body{font-family: "Calibri", sans-serif;
+                }
+               table {
+                     border:5px solid black;
+                     text-align: center;
+                     padding: 3px; background-color: white
+                }
+                th, td, tr {
+                    border:1px solid black;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: rgb(244, 244, 172)
+                }
+                .SOR {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: aqua;
+                }
+                .SER {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: greenyellow;
+                }
+                .APW {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: red;
+                }
+                .MME {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: white;
+                }
+                .EIE {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: gray;
+                }
+            </style>
+        </head>
+        <body>
+            <table>
+                <tr>
+                    <th colspan="6">Horario</th>
+                </tr>
+                <tr>
+                    <td>Horas</td>
+                    <td>Lunes</td>
+                    <td>Martes</td>
+                    <td>Miercoles</td>
+                    <td>Jueves</td>
+                    <td>Viernes</td>
+                </tr>
+                <tr>
+                    <td>8:30-9:25</td>
+                    <td rowspan="2" class="SER">SER</td>
+                    <td class="SOR">SOR</td>
+                    <td class="SOR">SOR</td>
+                    <td rowspan="2">MME</td>
+                    <td class="APW">APW</td>
+                </tr>
+                <tr>
+                    <td>9:25-10:20</td>
+                    <td class="MME">MME</td>
+                    <td class="SER">SER</td>
+                    <td class="EIE">EIE</td>
+                </tr>
+                <tr>
+                    <td>10:20-10:40</td>
+                    <td colspan="6">Recreo</td>
+                </tr>
+                <tr>
+                    <td>10:40-11:35</td>
+                    <td class="MME">MME</td>
+                    <td class="MME">MME</td>
+                    <td class="MME">MME</td>
+                    <td rowspan="2" class="SER">SER</td>
+                    <td class="SOR">SOR</td>
+                </tr>
+                <tr>
+                    <td>11:35-12:30</td>
+                    <td class="SOR">SOR</td>
+                    <td class="APW">APW</td>
+                    <td class="EIE">EIE</td>
+                    <td class="MME">MME</td>
+                </tr>
+                <tr>
+                    <td>12:30-12:40</td>
+                    <td colspan="6">Recreo</td>
+                </tr>
+                <tr>
+                    <td>12:40-13:35</td>
+                    <td class="SOR">SOR</td>
+                    <td class="SER">SER</td>
+                    <td rowspan="2" class="APW">APW</td>
+                    <td class="APW">APW</td>
+                    <td class="MME">MME</td>
+                </tr>
+                <tr>
+                    <td>13:35-14:00</td>
+                    <td class="APW">APW</td>
+                    <td class="EIE">EIE</td>
+                    <td class="SOR">SOR</td>
+                    <td class="SER">SER</td>
+                </tr>
+                <tfoot>
+                    <td></td>
+                    <td class="SER">SER=Servicios en red</td>
+                    <td class="SOR">SOR=Servidores operativos en red</td>
+                    <td class="APW">APW=Aplicaciones en web</td>
+                    <td class="EIE">EIE=Empresa e iniciativa emprendedora</td>
+                    <td class="MME">MME=Mantenimiento y montaje</td>
+                </tfoot>
+            </table>
+        </body>
+    </html>
